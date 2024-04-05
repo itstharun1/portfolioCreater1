@@ -1,0 +1,39 @@
+.education-card{
+    display: flex;
+    background-color: rgb(94, 94, 94);
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.each-card{
+    padding: 10px;
+    background-color: rgb(148, 144, 144);
+    margin: 5px;
+    border-radius: 15px;
+    margin-top: 17px;
+    width: 30vw;
+    box-shadow: -2px 2px 6px rgba(0,0,0,.15);
+    font-weight: bold;
+}
+.each-card:hover{
+    background-color: aquamarine;
+}
+.img-clg{
+    width: 30vw;
+    height: 35vh;
+}
+
+@media screen and (max-width: 900px){
+    /* .education-card {
+        flex-direction: column;
+    } */
+    .each-card{
+        width: 80vw;
+    }
+    
+    .img-clg{
+        width: 90%;
+        height: auto;
+    }
+    
+}
